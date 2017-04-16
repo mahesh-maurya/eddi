@@ -38,10 +38,20 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: tempateURL,
             controller: 'ExploreljapanCtrl'
         })
+        .state('course', {
+            url: "/course",
+            templateUrl: tempateURL,
+            controller: 'CourseCtrl'
+        })
         .state('services', {
             url: "/services",
             templateUrl: tempateURL,
             controller: 'ServicesCtrl'
+        })
+        .state('contact', {
+            url: "/contact",
+            templateUrl: tempateURL,
+            controller: 'ContactCtrl'
         })
         .state('form', {
             url: "/form",

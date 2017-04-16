@@ -13,25 +13,25 @@ myApp.factory('NavigationService', function () {
         classis: "active",
         anchor: "course",
         subnav: []
-    },{
+    }, {
         name: "Explore Japan",
         classis: "active",
         anchor: "explore-japan",
         subnav: []
-    },{
+    }, {
         name: "About o-hara",
         classis: "active",
         anchor: "about-ohara",
         subnav: []
-    },{
+    }, {
         name: "Services",
         classis: "active",
         anchor: "services",
         subnav: []
-    },{
+    }, {
         name: "Contact us",
         classis: "active",
-        anchor: "contact-us",
+        anchor: "contact",
         subnav: []
     }];
 
